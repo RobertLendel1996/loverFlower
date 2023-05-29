@@ -15,7 +15,7 @@
 	$mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
 	$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
 	$mail->Username   = 'robertlendel1996@gmail.com';                     //SMTP username
-	$mail->Password   = 'secret';                               //SMTP password
+	$mail->Password   = 'xtvgsjy0912';                               //SMTP password
 	$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 	$mail->Port       = 465;                 
 
@@ -29,9 +29,9 @@
 	//Тіло листа
 	$body = '<h1>Зустрічайте супер листа!</h1>';
 
-	//if(trim(!empty($_POST['email']))){
-		//$body.=$_POST['email'];
-	//}	
+	if(trim(!empty($_POST['email']))){
+		$body.='<p><strong>Email:</strong>' . $_POST['email']'</p>';
+	}	
 	
 	/*
 	//Прикріпити файл
