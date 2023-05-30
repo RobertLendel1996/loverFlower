@@ -1461,16 +1461,6 @@ body {
   position: relative;
 }
 
-.order__items::before {
-  content: "";
-  width: 4.0625rem;
-  height: 0.625rem;
-  position: absolute;
-  top: -3.125rem;
-  left: 0;
-  background-color: #D978AC;
-}
-
 .order__column {
   opacity: 0;
   -webkit-transition: all 1.5s ease 0.8s;
@@ -1710,20 +1700,6 @@ body {
 .occasion__button {
   padding-left: 1.0625rem;
   padding-right: 1.0625rem;
-  -webkit-transition: all 2.2s ease 0.4s;
-  -o-transition: all 2.2s ease 0.4s;
-  transition: all 2.2s ease 0.4s;
-  -webkit-transform: translate(-20%, 0px);
-      -ms-transform: translate(-20%, 0px);
-          transform: translate(-20%, 0px);
-  opacity: 0;
-}
-
-.occasion__button._active {
-  opacity: 1;
-  -webkit-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
 }
 
 .occasion__images {
@@ -3107,13 +3083,6 @@ body {
 
   .order__decor._active {
     opacity: 0.6;
-  }
-
-  .order__items::before {
-    left: 50%;
-    -webkit-transform: translate(-50%, 0px);
-        -ms-transform: translate(-50%, 0px);
-            transform: translate(-50%, 0px);
   }
 
   .item-order {
