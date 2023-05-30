@@ -30,13 +30,13 @@
 	$body = '<h1>Зустрічайте супер листа!</h1>';
 
 	if(trim(!empty($_POST['name']))){
-		$body.='<p><strong>Name:</strong>' . $_POST['name']'</p>';
+		$body.='<p><strong>Name:</strong>' . $_POST['name'].'</p>';
 	}	
 	if(trim(!empty($_POST['phone']))){
-		$body.='<p><strong>Telephone:</strong>' . $_POST['phone']'</p>';
+		$body.='<p><strong>Telephone:</strong>' . $_POST['phone'].'</p>';
 	}	
 	if(trim(!empty($_POST['email']))){
-		$body.='<p><strong>email:</strong>' . $_POST['email']'</p>';
+		$body.='<p><strong>email:</strong>' . $_POST['email'].'</p>';
 	}	
 	/*
 	//Прикріпити файл
