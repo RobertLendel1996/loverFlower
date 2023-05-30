@@ -304,6 +304,7 @@ body {
 }
 
 .button {
+  white-space: nowrap;
   padding-top: 0.9375rem;
   padding-bottom: 0.9375rem;
   font-weight: 700;
